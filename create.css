@@ -1,0 +1,148 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./fitness-1847866_1280.jpg);
+    background-repeat: no-repeat;
+   background-size: 100%;
+}
+#login-l a{
+    color: aqua;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 0;
+    text-align: center;
+    color: #ccc;
+}
+
+main {
+    padding: 20px;
+    color: #ddd;
+}
+
+h2 {
+    color: azure;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+   
+}
+h3{
+    text-align: center;
+    color: rgb(210, 202, 202);
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.gender{
+    margin-left: 35%;
+    font-size: larger;
+    margin-right: 35%;
+    vertical-align: text-top;
+    margin-bottom: 2%;
+    text-align:left;
+
+}
+#male{
+    padding-top: 20%;
+    margin:auto
+
+    
+
+}
+#female{
+   
+    margin: auto;
+    
+
+}
+
+label {
+    font-weight: bold;
+    margin-left: 35%;
+    margin-right: 100px;
+
+}
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 25%;
+    margin-left: 35%;
+    
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 15%;
+    margin-left: 40%;
+
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#social-signup {
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+#social-signup a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 250, 250);
+    width: 15%;
+    margin-right: 5%;
+}
+
+#social-signup a:hover {
+    background-color: #ddd;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Green color for the button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45A049; /* Darker green on hover */
+}
+
+#validationMessage {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+#dob{
+    margin: bottom 2%;;
+}
